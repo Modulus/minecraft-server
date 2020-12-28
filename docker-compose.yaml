@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   minecraft-server:
-    build: .
+    #build: .
+    image: ghcr.io/modulus/minecraft-server:1.0.0
     ports:
       - "25565:25565"
